@@ -1,0 +1,4 @@
+# latihan
+# Cetak NIM
+print("# Cetak NIM")
+print(mahasiswa[1], "\n")
