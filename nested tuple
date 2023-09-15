@@ -1,0 +1,7 @@
+# Nested Tuple
+print("# Nested Tuple")
+hariAwal = ("Senin", "Selasa", "Rabu")
+hariAkhir = ("Kamis", "Jumat", "Sabtu")
+
+hari = (hariAwal, hariAkhir)
+print(hari, "\n")
