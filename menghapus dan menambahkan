@@ -1,0 +1,9 @@
+# Menghapus nilai 4
+print("# Menghapus nilai 4")
+set_04.discard(4)
+print(set_04, "\n")
+
+# Menambahkan nilai 10
+print("# Menambahkan nilai 10")
+set_04.add(10)
+print(set_04)
