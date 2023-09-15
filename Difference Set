@@ -1,0 +1,20 @@
+# Difference Set
+print("# Difference Set")
+print(set_A - set_B)
+print(set_A.difference(set_B), "\n")
+
+
+# Symmetric Difference Set
+print("# Symmetric Difference Set")
+print(set_A ^ set_B)
+print(set_A.symmetric_difference(set_B), "\n")
+
+
+# Latihan
+print("# Latihan")
+yellow = {'dandelions', 'leaves', 'fire hydrant'}
+red = {'fire hydrant', 'blood', 'rose', 'leaves'}
+print("yellow = ", yellow)
+print("red = ", red)
+print(yellow | red)
+print(yellow & red)
