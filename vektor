@@ -1,0 +1,15 @@
+import numpy as np
+
+# Vektor
+print("# Vektor \n")
+# Menggunakan List
+print("# Menggunakan List")
+vector1 = [22,33,44,55]
+print(vector1)
+print(type(vector1))
+
+# Menggunakan array
+print("\n# Menggunakan array")
+vector2 = np.array([22,33,44,55])
+print(vector2)
+print(type(vector2))
