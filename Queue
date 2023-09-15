@@ -1,0 +1,31 @@
+# Queue
+print("# Queue")
+
+# Membuat class queue
+class Queue(object):
+  def __init__(self):
+    self.items = []
+  def isEmpty(self):
+    return self.items == []
+  def enqueue(self, item):
+    self.items.insert(0, item)
+  def dequeue(self):
+    return self.items.pop()
+  def size(self):
+    return len(self.items)
+
+# Penggunaan class queue
+queue = Queue()
+queue.enqueue('Red')
+queue.enqueue('Green')
+queue.enqueue('Blue')
+queue.enqueue('Yellow')
+
+print("\n# Melihat size dari queue")
+print(queue.size())
+
+print("\n# Mengeluarkan queue pertama")
+print(queue.dequeue())
+
+print("\n# Mengeluarkan queue Kedua")
+print(queue.dequeue())
