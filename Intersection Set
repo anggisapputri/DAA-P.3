@@ -1,0 +1,4 @@
+# Intersection Set
+print("# Intersection Set")
+print(set_A & set_B)
+print(set_A.intersection(set_B), "\n")
