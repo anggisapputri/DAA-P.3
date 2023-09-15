@@ -1,0 +1,3 @@
+# Mengambil Nilai
+print(bin_colors.get('approved_color'))
+print(bin_colors['approved_color'], "\n")
