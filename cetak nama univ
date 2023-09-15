@@ -1,0 +1,4 @@
+# latihan
+# Cetak Nama Universitas
+print("# Cetak Nama Universitas")
+print(mahasiswa[-1], "\n")
