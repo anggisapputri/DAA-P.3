@@ -1,0 +1,10 @@
+# lists
+# latihan
+from datetime import date
+
+x = date.today()
+tanggal = x.strftime("%d %B %Y")
+
+mahasiswa = ["Anggi Saputri", "2022071042", "Informatika", "Design dan Analisis Algoritma", tanggal, "Universitas Pembangunan Jaya"]
+
+print("Mahasiswa = ", mahasiswa)
