@@ -1,0 +1,2 @@
+bin_color=['Red', 'Green', 'Blue', 'Yellow']
+bin_color[-3]
