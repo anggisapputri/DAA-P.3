@@ -1,0 +1,39 @@
+# DataFrames
+print("# DataFrames")
+import pandas as pd
+df = pd.DataFrame([
+    ['1', 'Fares', 32, True],
+    ['2', 'Elena', 23, False],
+    ['3', 'Steven', 40, True]
+])
+df.columns = ['id', 'name', 'age', 'decision']
+print(df, "\n")
+
+
+# Seleksi kolom
+print("# Seleksi Kolom")
+df[['name', 'age']]
+print(df, "\n")
+
+
+
+# Latihan
+print("# Latihan")
+mhs = pd.DataFrame([
+    ['1', 'Informatika', 50, 30, 20],
+    ['2', 'Sistem Informasi', 55, 30, 25],
+    ['3', 'Teknik Sipil', 40, 30, 10]
+])
+mhs.columns = ['No', 'Prodi', 'Mahasiswa', 'Lakilaki', 'Perempuan']
+print(mhs)
+
+
+# Latihan
+print("# Latihan")
+mhs = pd.DataFrame([
+    ['1', 'Informatika', 50, 30, 20],
+    ['2', 'Sistem Informasi', 55, 30, 25],
+    ['3', 'Teknik Sipil', 40, 30, 10]
+])
+mhs.columns = ['No', 'Prodi', 'Mahasiswa', 'Lakilaki', 'Perempuan']
+print(mhs)
