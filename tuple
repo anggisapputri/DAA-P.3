@@ -1,0 +1,5 @@
+# Tuple
+bin_colors = ('Red', 'Green', 'Blue', 'Yellow')
+bin_colors[1]
+'green'
+bin_colors[2:]
