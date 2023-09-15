@@ -1,0 +1,3 @@
+#list slicing
+bin_colors = ['Red', 'Green', 'Blue', 'Yellow']
+bin_colors[0:2]
