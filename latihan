@@ -1,0 +1,6 @@
+# latihan
+from datetime import date
+
+Mahasiswa = ["Anggi", "2022071042", "Informatika", "Design dan Analisis Algoritma", "tanggal " + str(date.today()), "Universitas Pembangunan Jaya"]
+for UPJ in Mahasiswa:
+    print("UPJ ", UPJ)
