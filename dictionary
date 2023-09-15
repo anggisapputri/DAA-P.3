@@ -1,0 +1,9 @@
+#Struktur Data dalam Python: Dictionary
+bin_colors ={
+
+"manual_color": "Yellow", "approved_color": "Green", "refused_color": "Red" }
+
+
+print(bin_colors)
+
+{'manual_color': 'Yellow', 'approved_color': 'Green', 'refused_color':'Red'}
